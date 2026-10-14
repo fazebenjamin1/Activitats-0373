@@ -1,0 +1,41 @@
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 5fr 2fr 4fr;
+}
+.nacholas1
+{
+    background-color: blue;
+}
+.nacholas2
+{
+    background-color: green;
+}
+.nacholas3
+{
+    background-color: yellow;
+    grid-row: 3;
+}
+.nacholas4
+{
+    background-color: turquoise;
+}
+.nacholas6
+{
+    background-color: purple;
+}
+.nacholas7
+{
+    background-color: peru;
+}
+.nacholas8
+{
+    background-color: black;
+}
+.nacholas5
+{
+    background-color: white;
+}
