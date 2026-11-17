@@ -1,0 +1,209 @@
+/*GLOBAL CSS*/
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: #faf7f2;
+}
+/*HEADER CSS*/
+header
+{
+    height: 70px;
+    background-color: #3e2a1e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#logo p
+{
+    font-size: 22px;
+    margin-left: 40px;
+    color: #f5e6d3;
+}
+#logo-img
+{
+    margin-left: 10px;
+    height: 40px;
+    background-size: cover;
+}
+#navegacio a
+{
+    text-decoration: none;
+    color: #f5e6d3;
+}
+
+/*MAIN CSS*/
+/*HERO*/
+#hero
+{
+    min-height: 500px;
+    background-image: url("https://picsum.photos/1600/800?coffee");
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+}
+#hero h1
+{
+    font-size: 48px;
+}
+#hero h3
+{
+    font-size: 20px;
+}
+#btn-hero
+{
+    background-color: #6f4e37;
+    color: white;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 8px;
+}
+/*ABOUT*/
+#about
+{
+    align-items: center;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: row;
+}
+#about img 
+{
+    flex: 0 0 40%;
+    border-radius: 12px;
+    height: 320px;
+    object-fit: cover;
+    width: auto;
+    margin-left: 30px;
+}
+#uno
+{
+    align-items: center;
+    margin-left: 40px;
+    gap: 1em;
+}
+#uno p
+{   
+    gap: 12px;
+    line-height: 1.6;
+}
+#uno h2
+{
+    font-size: 32px;
+    color: #3e2a1e;
+    margin-bottom: 16px;
+}
+#btn-about
+{
+    background-color: #6f4e37;
+    color: white;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/*CARTA*/
+#carta
+{
+    background-color: white;
+    padding: 80px 0;
+}
+#carta h2
+{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+#grid-carta
+{
+    gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.articulo
+{
+    background-color: #faf7f2;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px;
+    padding: 16px;
+}
+.articulo img
+{
+    width: 180px;
+    margin: 30px 0;
+}
+.articulo h3
+{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.articulo p
+{
+    color: #6f4e37;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*HORARIOS*/
+#grid-horarios
+{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+}
+#tabla
+{
+    background-color: #faf7f2;
+    border-radius: 16px;
+    margin: 30px;
+    text-align: center;
+}
+#tabla h2
+{
+    margin: 16px;
+}
+#taula
+{
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    border-radius: 16px;
+}
+#taula thead
+{
+    background-color: #6f4e37;
+    color: white;
+}
+
+/*FORMULARIO*/
+#formulario
+{
+    background-color: #faf7f2;
+    border-radius: 16px;
+}

@@ -1,0 +1,43 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecera
+{
+    height: 70px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.principal
+{
+    flex: 1;
+    background-color: #f3f4f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.principal p
+{
+    padding: 32px;
+}
+.pie
+{
+    height: 60px;
+    background-color: #1f2937;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

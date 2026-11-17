@@ -1,0 +1,45 @@
+    *
+    {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    #capcalera
+    {
+        height: 70px;
+        justify-content: space-between;
+        padding-left: 32px;
+        padding-right: 32px;
+        align-items: center;
+        display: flex;
+        background-color: #1f2937;
+    }
+    #logo
+    {
+        width: 60px;
+        height: auto;
+    }
+    #links
+    {
+        gap: 104px;
+        color: white;
+        display: flex;
+    }
+    #links a
+    {
+        text-decoration: none;
+        color: white;
+    }
+    #links a:hover
+    {
+        color: bisque;
+    }
+    #btn {
+        background-color: #3b82f6;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }

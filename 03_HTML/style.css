@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background-color: slategrey;
+}
+#columnas
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px;
+}
+.basura{
+    align-items: center;
+    text-align: center;
+    margin: 40px;
+    padding: 20px;
+}
+h2{
+    font-size: 3em;
+    text-align: center;
+    margin: 18px;
+    padding-bottom: 20px;
+}
+.imatge{
+    height: 300px;
+    width: auto;
+
+}
+.textLore
+{
+    font-size: 18px;
+    padding: 3em;
+}

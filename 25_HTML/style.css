@@ -1,0 +1,72 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: #f3f4f6;
+}
+
+.tarjeta
+{
+    max-width: 320px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.imagen-wrap
+{
+    position: relative;
+}
+.imagen-wrap img
+{
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+} 
+.badge
+{
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+.nuevo
+{
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.descuento
+{
+    bottom: 12px;
+    right: 12px;
+    position: absolute;
+    background-color: yellow;
+    color: black;
+}
+.info
+{
+    padding:20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.btn
+{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 4px;
+    border-radius: 6px;
+    margin-top: 10px;
+}

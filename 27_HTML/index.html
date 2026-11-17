@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercici 27</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+            <nav id="logo">
+                <img id="logo-img" src="./Captura de pantalla 2026-10-20 190419 copy.png" alt="Logo">
+                <p>Aroma</p>
+            </nav>
+            <nav id="navegacio">
+                <a href="#">Inicio</a>
+                <a href="#">Carta</a>
+                <a href="#">Horarios</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </header>
+        <main>
+            <section id="hero">
+                <!--https://picsum.photos/1600/800?coffee-->
+                <h1>Café de especialidad</h1>
+                <h3>Tostado artesanal cada mañana</h3>
+                <button id="btn-hero">Ver la carta</button>
+            </section>
+            <section id="about">
+                <img src="https://picsum.photos/1600/800?coffee" alt="about-image">
+                <div id="uno">
+                    <h2>Sobre nosotros</h2>
+                    <p>Tablet (601-900px): carta en 2 columnas, horarios y contacto uno debajo del otro, footer en 2 columnas.</p>
+                    <p>Móvil (≤ 600px): todo en 1 columna, el “about” apila imagen arriba y texto abajo, navbar solo con el logo</p>
+                    <button id="btn-about">Conocenos</button>
+                </div>
+            </section>
+            <section id="carta">
+                <h2>Nuestra Carta</h2>
+                <div id="grid-carta">
+                    <div class="articulo">
+                        <img src="https://picsum.photos/1600/800?coffee" alt="imagen-articulo-carta">
+                        <h3>Articulo 1</h3>
+                        <p>Lorem ipsum bla bla bla mateas lindomati lomacidos</p>
+                        <p><b>3.50€</b></p>
+                    </div>
+                    <div class="articulo">
+                        <img src="https://picsum.photos/1600/800?coffee" alt="imagen-articulo-carta1">
+                        <h3>Articulo 2</h3>
+                        <p>Lorem ipsum bla bla bla mateas lindomati lomacidos</p>
+                        <p><b>3.50€</b></p>
+                    </div>
+                    <div class="articulo">
+                        <img src="https://picsum.photos/1600/800?coffee" alt="imagen-articulo-carta2">
+                        <h3>Articulo 3</h3>
+                        <p>Lorem ipsum bla bla bla mateas lindomati lomacidos</p>
+                        <p><b>3.50€</b></p>
+                    </div>
+                </div>
+            </section>
+            <section id="horarios">
+                <div id="grid-horarios">
+                    <div id="tabla">
+                        <h2>Horarios</h2>
+                        <table id="taula">
+                            <caption>Horario semanal</caption>
+                            <thead>
+                                <th>Dia</th>
+                                <th>Horario</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Lun-Vie</td>
+                                    <td>8:00-20:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Sabado</td>
+                                    <td>9:00-22:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Domingo</td>
+                                    <td>Cerrado</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="formulario">
+                        <form action="contacto">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" id="nombre">
+                            <label for="email">Email</label>
+                            <input type="text" name="Email" id="email">
+                            <label for="mensaje">Mensaje</label>
+                            <input type="text" name="mensaje" id="mensaje">
+                        </form>
+                        <button id="btn-contacto">Enviar</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div id="grid-footer">
+                <div class="enlace">
+                    <h6>Aroma</h6>
+                    <p>Texto</p>
+                </div>
+                <div class="enlace">
+                    <h6>Enlaces</h6>
+                    <p>Texto</p>
+                </div>
+                <div class="enlace">
+                    <h6>Siguenos</h6>
+                    <p>Texto</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card
+{
+    width: 320px;
+    border-radius: 2px;
+    margin: 50px auto;
+}
+
+.card-img
+{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content
+{
+    padding: 20px;
+}
+
+.card-tag
+{
+    font-size: 1.5em;
+    background-color: orangered;
+}
+
+.card-price
+{
+    font-weight: bold;
+}
+
+.card-btn
+{
+    background-color: green;
+    color: white;
+
+}

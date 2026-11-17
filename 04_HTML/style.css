@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+.tarjeta{
+    background-color: black;
+    border: 1px solid white;
+}
+.imatge{
+    height: 150px;
+    width: auto;
+}
+.text
+{
+    font-size: 20px;
+}

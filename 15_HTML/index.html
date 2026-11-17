@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="stylesheet" href="./style.css">
+        <title>Exercici 15</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form action="registro-usuario">
+            <div>
+                <label for="nombre">Nombre completo</label>
+                <input type="text" name="nombreUsuario" id="nombre" required placeholder="Introduce tu nombre completo" minlength="30">
+            </div>
+            <div>
+                <label for="telefono">Telefono</label>
+                <input type="tel" name="telefonoUsuario" id="telefono" required placeholder="Introduce tu telefono">
+            </div>
+            <div>
+                <label for="fecha">Fecha</label>
+                <input type="date" name="date" id="fecha" required placeholder="Introduce la fecha actual">
+            </div>
+            <div>
+                <input type="checkbox" name="age" id="edad" required>
+                <label for="edad">Eres mayor de 18?</label>
+            </div>
+        </form>
+    </body>
+</html>
