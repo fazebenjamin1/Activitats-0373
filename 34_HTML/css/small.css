@@ -1,0 +1,76 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #f3f4f6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecera
+{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.pie
+{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.maqueta
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 1em;
+}
+.anunci 
+{
+    display: none;
+    min-height: 300px;
+}
+.anunci1
+{
+    background-color: blueviolet;
+    border-radius: 8px;
+    padding: 20px;
+}
+.anunci2
+{
+    background-color: aqua;
+    border-radius: 8px;
+    padding: 20px;
+}
+.banner
+{
+    background-color: chartreuse;
+    border-radius: 8px;
+    padding: 20px;
+    display: none;
+    height: 150px;
+}
+.contacto
+{
+    background-color: coral;
+    border-radius: 8px;
+    padding: 20px;
+    min-height: 200px;
+}
+.piratas
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+.pirata
+{
+    height: 120px;
+}
+

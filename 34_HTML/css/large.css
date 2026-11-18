@@ -1,0 +1,34 @@
+.maqueta
+{
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-areas: 
+    "anunci1 banner anunci2"
+    "anunci1 piratas anunci2"
+    "anunci1 contacto anunci2";
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.contacto
+{
+    grid-area: contacto;
+}
+.banner
+{
+    grid-area: banner;
+}
+.anunci
+{
+    display: block;
+}
+.anunci1
+{
+    grid-area: anunci1;
+}
+.anunci2
+{
+    grid-area: anunci2;
+}
+.piratas
+{
+    grid-area: piratas;
+    grid-template-columns: repeat(3,1fr);
+}

@@ -1,0 +1,53 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header
+{
+    position:sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #1f2937;
+    height: 70px;
+    padding: 0 16px;
+}
+
+#capcalera
+{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    img 
+    {
+        height: 48px;
+    }
+    h1
+    {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+}   
+#enllaç-header
+{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 4px;
+}
+#enllaç-header a
+{
+    padding: 0 4px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #e5e7eb;
+}
+#enllaç-header a:hover
+{
+    color: #fbbf24;
+    transition: 0.2s ease;
+}

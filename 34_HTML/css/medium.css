@@ -1,0 +1,21 @@
+.maqueta
+{
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "piratas banner"
+    "piratas contacto";
+    grid-template-rows: auto 1fr;
+}
+.piratas
+{
+    grid-area: piratas;
+}
+.banner
+{
+    grid-area: banner;
+    display: block;
+}
+.contacto
+{
+    grid-area: contacto;
+}

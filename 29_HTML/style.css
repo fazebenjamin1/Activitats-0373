@@ -1,0 +1,98 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+.contenedor
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navbar
+{
+    background-color: #1f2937;
+    height: 70px;
+    color: white;
+}
+.barra
+{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+.links a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.banner
+{
+    background-color: #374151;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+}
+.banner h1
+{
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+.banner p
+{
+    font-size: 18px;
+}
+
+.servicios
+{
+    background-color: white;
+    padding: 60px 0;
+}
+.servicios h2
+{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 32px;
+}
+.servicios-grid
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+.servicio
+{
+    background-color: #f3f4f6;
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+}
+.cta
+{
+    background-color: #faf7f2;
+    padding: 48px 0;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+}
+.btn
+{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 12px;
+    gap: 24px;
+    background-color: #3b82f6;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+}

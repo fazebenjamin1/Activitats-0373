@@ -1,0 +1,11 @@
+#enllaç-header
+{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    font-size: 16px;
+}
+#capcalera h1
+{
+    font-size: 28px;
+}
